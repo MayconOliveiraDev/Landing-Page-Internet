@@ -1,0 +1,194 @@
+/*1400px*/
+
+@media (max-width:1400px){
+    .container{
+        width:min(94%,1200px);
+    }
+
+    .hero-content{
+        gap:60px;
+    }
+
+    .hero-image img{
+        max-width:430px;
+    }
+}
+
+/*1024px*/
+
+@media (max-width:1024px){
+    section{
+        padding:90px 0;
+    }
+
+    .hero-content,
+    .experience-content,
+    .about-grid{
+        grid-template-columns:1fr;
+        gap:60px;
+    }
+
+    .hero{
+        text-align:center;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .hero-trust{
+        justify-content:center;
+    }
+
+    .hero-image{
+        order:-1;
+    }
+
+    .experience-image{
+        order:-1;
+    }
+
+    .about-image{
+        order:-1;
+    }
+}
+
+@media(max-width:1024px){
+
+    .nav-links{
+        position:fixed;
+        top:0;
+        right:-100%;
+        width:320px;
+        height:100vh;
+        background:#050816;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        gap:35px;
+        transition:.45s ease;
+        z-index:999;
+    }
+
+    .nav-links.active{
+    box-shadow: -15px 0 40px rgba(0,0,0,.35);
+    }
+
+    .menu-mobile{
+        display:block;
+    }
+
+    .btn-whatsapp{
+        display:none;
+    }
+}
+
+@media(max-width:1024px){
+    .floating-card{
+        display:none;
+    }
+}
+
+    /*768px*/
+
+@media(max-width:768px){
+    .hero{
+        padding-top:140px;
+    }
+
+    .hero-text h1{
+        font-size:2.7rem;
+    }
+
+    .section-header h2{
+        font-size:2.2rem;
+    }
+
+    .help-card,
+    .cta-box{
+        padding:50px 35px;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .footer-grid img{
+        margin:auto auto 20px;
+    }
+
+    .about-checks{
+        grid-template-columns:1fr;
+    }
+
+}
+
+    /*576px*/
+@media(max-width:576px){
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        width:100%;
+    }
+
+    .plans-grid{
+        gap:24px;
+    }
+
+    .plan-card{
+        padding:32px;
+    }
+
+    .plan-speed{
+        font-size:2.5rem;
+    }
+
+    .plan-price h4{
+        font-size:2.4rem;
+    }
+
+    .help-card{
+        padding:40px 28px;
+    }
+
+    .cta-box{
+        padding:50px 30px;
+    }
+}
+
+/*400px*/
+
+@media(max-width:400px){
+    .hero-text h1{
+        font-size:2.2rem;
+    }
+    .section-header h2{
+        font-size:1.9rem;
+    }
+    .plan-card{
+        padding:26px;
+    }
+
+    .benefit-card{
+        padding:28px;
+    }
+
+    .step-card{
+        padding:30px 24px;
+    }
+
+    .whatsapp-float{
+        width:58px;
+        height:58px;
+        font-size:1.6rem;
+    }
+
+    #backToTop{
+        width:48px;
+        height:48px;
+    }
+}
