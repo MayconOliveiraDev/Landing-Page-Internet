@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /*CONFIGURAÇÃO*/
 
-    const PHONE = "5514997779595"; // <-- Alterar para o número da Max Net
+    const PHONE = "5514981767503"; // <-- Alterar para o número do Provedor
 
     const MESSAGE =
-        "Olá! 👋 Vim pelo site da Max Net e gostaria de contratar um plano de internet.";
+        "Olá! 👋 Vim pelo site da Conecta + e gostaria de contratar um plano de internet."; // <-- Alterar para o nome do provedor
 
     /*LINK*/
 
