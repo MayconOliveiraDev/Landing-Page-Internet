@@ -1,10 +1,12 @@
 /*MENU.JS*/
+console.log("Menu.JS foi carregado")
 
 document.addEventListener("DOMContentLoaded", () => {
     const navbar = document.querySelector(".navbar");
     const menuButton = document.querySelector(".menu-mobile");
     const navLinks = document.querySelector(".nav-links");
     const links = document.querySelectorAll(".nav-links a");
+
 
     /*NAVBAR SCROLL*/
     function handleNavbar(){
