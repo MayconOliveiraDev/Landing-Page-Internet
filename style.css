@@ -334,8 +334,22 @@ header{
 
 .menu-mobile{
     display:none;
-    font-size:1.6rem;
+    position:relative;
+    background:transparent;
+    border:none;
     color:#fff;
+    font-size:1.6rem;
+    cursor:pointer;
+
+    width:50px;
+    height:50px;
+
+    padding:0;
+    margin:0;
+
+    align-items:center;
+    justify-content:center;
+    z-index:2000;
 }
 
 /*HERO*/
